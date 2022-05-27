@@ -40,7 +40,7 @@ $(document).ready(()=>{
     if (result.online) {
       $(".sip").html(result.players.now);
     } else {
-      $(".playercount").html("Server isn't online!");
+      $(".playercount").html("Servern är inte online!");
     }
   });
 
@@ -49,7 +49,7 @@ $(document).ready(()=>{
       if (result.online) {
         $(".sip").html(result.players.now);
       } else {
-        $(".playercount").html("Server isn't online!");
+        $(".playercount").html("Servern är inte online!");
       }
     });
   }, 500);
